@@ -21,8 +21,8 @@ app.use((error, req, res, next) => {
   //   useNewUrlParser: true,
   //   useCreateIndex: true,
   // });
-  app.listen(process.env.PORT || 80);
+  app.listen(process.env.PORT || 8080);
   console.log(
-    "hi"
+    ""
     );
 })();
